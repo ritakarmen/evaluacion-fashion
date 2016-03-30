@@ -1,0 +1,49 @@
+.contactos
+	nav.navbar.navbar-default
+		.navbar-header
+			a.navbar-brand(href='#') HOME
+		ul.nav.navbar-nav
+			li.active
+				a.contact(href='#') CONTACT US
+		ul.nav.navbar-nav.navbar-right
+			li.dropdown
+				a.dropdown-toggle(href='#',data-toggle='dropdown')
+					span.carrito My Cart
+	.seccion-header
+		.row
+			.cajaroja.col-xs-6
+				span.contared CONTACT US
+			.cajainfo.col-xs-6
+				p.informe Contact info
+				p.informe p.informehone:0(1234)567890
+				p.informe Mail:Infor@roadthemes.com
+				p.informe Address:N°40 Baria Sreet 133/2 NewYork City.NY.United
+				p.informe State.
+	.seccion-mapa
+		.row
+			.col-xs-6
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.54747530611!2d-74.01503759402803!3d40.64535309526153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C+Nueva+York%2C+EE.+UU.!5e0!3m2!1ses-419!2spe!4v1459354495664" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			.col-xs-6
+				form.form-inline(role='form')
+					.form-group
+						label.sr-only(for='First-name') First
+						input.form-control#First-name(type='First',placeholder='First name')
+					.form-group
+						label.sr-only(for='last-name') Last
+						input.form-control#last-name(type='last',placeholder='Last name')
+				br
+				form.form-inline(role='form')
+					.form-group
+						label.sr-only(for='email') Email
+						input.form-control#email(type='email',placeholder='email')
+					.form-group
+						label.sr-only(for='wbsite') Wbsite
+						input.form-control#wbsite(type='wbsite',placeholder='Wbsite')
+				br
+				form(role='form')
+					.form-group(for='subjet')
+						input.form-control#subjet(type='subjet',placeholder='Subjet')
+					.form-group(for='messege')
+						textarea.form-control#messege(type='messege',placeholder='Messege')
+				button.btn.btn-default(type='submit') SEND
+

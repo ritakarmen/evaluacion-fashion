@@ -1,0 +1,29 @@
+header
+	nav.navbar.navbar-default(role='navigation')
+		.navbar-header
+			button.navbar-toggle(type='button',data-target='#navbarCollapse',data-toggle='collapse')
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand(href='#') Default Welcome Msg!
+		#navbarCollapse.collapse.navbar-collapse
+			ul.nav.navbar-nav.navbar-right
+				li.active
+					a(href='#') Inicio
+				each item in ['Language', 'Currency', 'My Account']
+					li
+						a(href='#')=item
+	.header
+		.container
+			.logos.col-xs-4
+
+				span.reloj.fa.fa-clock-o OPENING TIME
+				H6 9:00AM - 10:00 PM
+			.logos.col-xs-4
+				img(src="images/logo.png")
+			.logos.col-xs-4.text-right
+				.input-group.form-search#search
+					.lupa.fa.fa-search
+					input.search.form-control.fa.fa-search(type='text',placeholder="search")
+						

@@ -1,0 +1,60 @@
+.seccion-header {
+  width: 100%;
+  padding: 90px;
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 114vh; }
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.logos {
+  padding-left: 10%; }
+
+.lupa {
+  position: absolute;
+  top: 45%;
+  right: 10%; }
+
+input.search {
+  background-color: rgba(0, 0, 0, 0.0001); }
+
+.navbar-default .navbar-nav .active a.contact {
+  color: #fff;
+  background-color: #E40F0F; }
+
+.navbar-default .navbar-nav li a.dropdown-toggle {
+  background: black;
+  color: white;
+  margin-right: 100px; }
+
+span.contared {
+  color: white;
+  background: red;
+  font-size: 45px; }
+
+.cajainfo {
+  color: white; }
+
+.seccion-mapa {
+  padding: 90px; }
+
+.form-control {
+  background-color: #ccc; }
+
+.footer-ploma {
+  background-color: #ccc;
+  padding: 20px; }
+
+.footer-negro {
+  background-color: #000;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
